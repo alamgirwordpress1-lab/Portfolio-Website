@@ -1,0 +1,3 @@
+# Marks this project as its own pnpm workspace root.
+# Without this, pnpm climbs up and finds C:\Users\alamg\pnpm-workspace.yaml
+# (a stray file) and installs everything into the home directory instead.
