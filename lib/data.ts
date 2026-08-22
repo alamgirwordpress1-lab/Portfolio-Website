@@ -340,6 +340,16 @@ export const projects: Project[] = [
     tags: ["WordPress", "SEO"],
     flag: "🇬🇧",
   },
+  {
+    title: "Patriot Insurance Group",
+    url: "https://dsayles.com/",
+    domain: "dsayles.com",
+    desc: "Full-stack website build for a division of US-based Patriot Insurance Group — insurance services platform.",
+    role: "Full-Stack Developer",
+    category: "Corporate",
+    tags: ["WordPress", "Full-Stack"],
+    flag: "🇺🇸",
+  },
 ];
 
 export const projectCategories = ["All", "E-commerce", "Corporate", "Agency & Media"] as const;
@@ -428,6 +438,30 @@ export const education = [
     school: "RR Foundation, Dhaka",
     year: "2017",
     note: "6-month intensive — HTML, CSS, JS, Bootstrap, Tailwind",
+  },
+  {
+    degree: "Google Ads Search Certification",
+    school: "Google Skillshop",
+    year: "2024",
+    note: "Credential ID 105369352",
+  },
+  {
+    degree: "Google Analytics Certification",
+    school: "Google Skillshop",
+    year: "2024",
+    note: "Individual Qualification · ID 105269179",
+  },
+  {
+    degree: "Google Ads Video Certification",
+    school: "Google Skillshop",
+    year: "2024",
+    note: "Valid through 2030 · ID 105243379",
+  },
+  {
+    degree: "Software Engineering",
+    school: "Udemy",
+    year: "2024",
+    note: "Professional Course Certificate",
   },
 ];
 

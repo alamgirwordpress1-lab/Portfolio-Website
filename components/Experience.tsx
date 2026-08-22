@@ -114,9 +114,9 @@ export default function Experience() {
                 className="edu-card rv rv-ring card-hover rounded-2xl border border-line bg-card p-6"
                 style={
                   {
-                    "--rvd": i * 130,
-                    "--ry": `${(i - 1.5) * -52}deg`,
-                    "--rx": `${(i - 1.5) * 100}px`,
+                    "--rvd": i * 110,
+                    "--ry": `${(i - (education.length - 1) / 2) * -20}deg`,
+                    "--rx": `${(i - (education.length - 1) / 2) * 48}px`,
                   } as CSSProperties
                 }
               >
