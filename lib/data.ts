@@ -378,6 +378,17 @@ export const experience = [
     tags: ["Team Lead", "Headless WP", "WP API", "SEO"],
   },
   {
+    role: "Full Stack WordPress Developer",
+    company: "WooXperto LLC",
+    place: "Dhaka, Bangladesh",
+    period: "Jan 2022 — Dec 2023",
+    points: [
+      "Full-stack WooCommerce store builds — custom themes, checkout flows and payment integrations.",
+      "Custom plugin and Elementor widget development for agency clients.",
+    ],
+    tags: ["WooCommerce", "Full-Stack", "Elementor"],
+  },
+  {
     role: "Software Engineer",
     company: "Dropndot Limited",
     place: "New Eskaton, Dhaka",
