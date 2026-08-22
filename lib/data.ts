@@ -369,7 +369,7 @@ export const experience = [
     role: "Sr. WordPress Developer — Team Lead",
     company: "OMH (Online Marketing Help)",
     place: "UK · Remote from Dhaka",
-    period: "Sep 2023 — Present",
+    period: "Oct 2024 — Present",
     points: [
       "Leading the dev team: scoping client projects, assigning builds, QA and final delivery.",
       "Headless WordPress R&D — WPGraphQL + Next.js architectures and block-to-component rendering.",
@@ -381,7 +381,7 @@ export const experience = [
     role: "Full Stack WordPress Developer",
     company: "WooXperto LLC",
     place: "Dhaka, Bangladesh",
-    period: "Jan 2022 — Dec 2023",
+    period: "Jan 2024 — Oct 2024",
     points: [
       "Full-stack WooCommerce store builds — custom themes, checkout flows and payment integrations.",
       "Custom plugin and Elementor widget development for agency clients.",
@@ -392,7 +392,7 @@ export const experience = [
     role: "Software Engineer",
     company: "Dropndot Limited",
     place: "New Eskaton, Dhaka",
-    period: "Aug 2020 — Sep 2024",
+    period: "Sep 2020 — Dec 2023",
     points: [
       "Custom WordPress themes and plugins for international clients — ACF-driven classic themes and FSE block themes.",
       "Complex WooCommerce builds and custom Elementor widget development.",
@@ -402,20 +402,9 @@ export const experience = [
   },
   {
     role: "PHP Developer",
-    company: "Bhalogari.com",
-    place: "Tejgaon I/A, Dhaka",
-    period: "Sep 2019 — Sep 2020",
-    points: [
-      "Built company software and customer-facing platforms for Bangladesh's car marketplace.",
-      "Developed the Google Maps-powered nearest car-servicing-center finder.",
-    ],
-    tags: ["PHP", "Google Maps API", "WordPress"],
-  },
-  {
-    role: "Web Developer",
     company: "RS Software",
     place: "Banasree, Dhaka",
-    period: "May 2018 — Jan 2019",
+    period: "Jan 2019 — Dec 2020",
     points: [
       "WordPress plugin development and client project delivery.",
       "Application work in CodeIgniter and AngularJS.",
@@ -423,10 +412,10 @@ export const experience = [
     tags: ["Plugin Dev", "CodeIgniter", "AngularJS"],
   },
   {
-    role: "Web Designer & Developer",
-    company: "LT Bangladesh (webtady.com)",
+    role: "Web Developer",
+    company: "Webtady (LT Bangladesh)",
     place: "Moghbazar, Dhaka",
-    period: "May 2016 — May 2017",
+    period: "May 2018 — May 2019",
     points: [
       "Where it all started — converting PSD, HTML and image designs into pixel-perfect WordPress themes.",
       "Client sites end-to-end plus SEO and digital marketing.",
