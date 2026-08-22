@@ -21,7 +21,7 @@ const jetbrains = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://portfolio-website-phi-taupe-79.vercel.app"),
+  metadataBase: new URL("https://www.alamgirhossen.online"),
   title: "Md Alamgir Hossen — Senior WordPress & Next.js Developer",
   description:
     "Senior WordPress & Next.js developer with 9+ years of experience. Custom themes with ACF, plugin & Elementor widget development, WooCommerce, Shopify, headless WordPress with WPGraphQL, and full-stack Next.js applications.",
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     title: "Md Alamgir Hossen — Senior WordPress & Next.js Developer",
     description:
       "From pixel-perfect WordPress themes to headless Next.js platforms — 9+ years of building fast, scalable websites that grow businesses.",
-    url: "https://portfolio-website-phi-taupe-79.vercel.app",
+    url: "https://www.alamgirhossen.online",
     siteName: "Md Alamgir Hossen",
     type: "website",
   },
