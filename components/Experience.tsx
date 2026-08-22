@@ -64,7 +64,7 @@ export default function Experience() {
             <article key={e.company} className="exp-item relative">
               <span
                 className={`absolute -left-8 top-2 h-3.5 w-3.5 -translate-x-1/2 rounded-full border-2 md:-left-12 ${
-                  i === 0 ? "border-lime bg-lime shadow-[0_0_16px_rgba(29,191,115,0.6)]" : "border-line-strong bg-bg"
+                  i === 0 ? "border-lime bg-lime shadow-[0_0_16px_rgba(34,191,118,0.6)]" : "border-line-strong bg-bg"
                 }`}
                 aria-hidden
               />

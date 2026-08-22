@@ -89,7 +89,7 @@ export default function HeadlessFlow() {
                       x2="0"
                       y2="100%"
                       className="lg:hidden"
-                      stroke="#1dbf73"
+                      stroke="#22bf76"
                       strokeWidth="2"
                       strokeDasharray="4 6"
                       style={{ animation: "flow-dash 1.2s linear infinite" }}
@@ -100,7 +100,7 @@ export default function HeadlessFlow() {
                       x2="100%"
                       y2="0"
                       className="hidden lg:block"
-                      stroke="#1dbf73"
+                      stroke="#22bf76"
                       strokeWidth="2"
                       strokeDasharray="4 6"
                       style={{ animation: "flow-dash 1.2s linear infinite" }}

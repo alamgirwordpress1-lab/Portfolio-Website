@@ -69,7 +69,7 @@ export default function OrbitRing({
         className="absolute inset-[15%] rounded-full border border-dashed border-lime/20"
         style={{
           background:
-            "radial-gradient(circle, rgba(29,191,115,0.3) 0%, rgba(29,191,115,0.17) 55%, rgba(29,191,115,0.07) 80%, transparent 100%)",
+            "radial-gradient(circle, rgba(34,191,118,0.3) 0%, rgba(34,191,118,0.17) 55%, rgba(34,191,118,0.07) 80%, transparent 100%)",
         }}
       />
       <div className="orbit-spin relative h-full w-full">
@@ -84,7 +84,7 @@ export default function OrbitRing({
               style={{ transform: `rotate(${angle}deg) translateX(${radius})` }}
             >
               <div
-                className="orbit-icon absolute left-0 top-0 flex items-center justify-center rounded-2xl border border-white/25 p-3.5 shadow-[0_8px_28px_rgba(0,0,0,0.6),0_0_24px_rgba(29,191,115,0.22)]"
+                className="orbit-icon absolute left-0 top-0 flex items-center justify-center rounded-2xl border border-white/25 p-3.5 shadow-[0_8px_28px_rgba(0,0,0,0.6),0_0_24px_rgba(34,191,118,0.22)]"
                 style={{
                   transform: `translate(-50%, -50%) rotate(${-angle}deg)`,
                   backgroundColor: `#${icon.hex}`,
