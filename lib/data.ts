@@ -350,6 +350,16 @@ export const projects: Project[] = [
     tags: ["WordPress", "Full-Stack"],
     flag: "🇺🇸",
   },
+  {
+    title: "Yume Japanese Language School",
+    url: "https://yumenihongo.com/",
+    domain: "yumenihongo.com",
+    desc: "Dhaka-based study-in-Japan consultancy — language school site with admissions guidance, from documents to visa processing.",
+    role: "Developer",
+    category: "Corporate",
+    tags: ["WordPress", "Education"],
+    flag: "🇧🇩",
+  },
 ];
 
 export const projectCategories = ["All", "E-commerce", "Corporate", "Agency & Media"] as const;
