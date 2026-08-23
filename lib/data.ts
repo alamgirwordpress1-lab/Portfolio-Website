@@ -244,12 +244,22 @@ export type Project = {
   domain: string;
   desc: string;
   role: string;
-  category: "E-commerce" | "Corporate" | "Agency & Media";
+  category: "Headless & Next.js" | "E-commerce" | "Corporate" | "Agency & Media";
   tags: string[];
   flag: string;
 };
 
 export const projects: Project[] = [
+  {
+    title: "The Bulk Bag Man",
+    url: "https://bag-man-live-six.vercel.app/",
+    domain: "bag-man-live-six.vercel.app",
+    desc: "Headless build for a UK aggregates supplier. A custom WordPress child theme exposes ACF fields, custom meta, menus and a Supplies post type through the REST API, and a Next.js 16 App Router frontend renders it on Vercel. Contact Form 7 submissions are proxied through a Next.js route handler, so the browser never talks to WordPress directly.",
+    role: "Headless Architecture · WP Child Theme · Next.js Frontend",
+    category: "Headless & Next.js",
+    tags: ["Headless WordPress", "Next.js 16", "REST API", "ACF", "TypeScript", "Vercel"],
+    flag: "🇬🇧",
+  },
   {
     title: "Heat Pumps 4 Pools",
     url: "https://heatpumps4pools.com/",
@@ -362,7 +372,13 @@ export const projects: Project[] = [
   },
 ];
 
-export const projectCategories = ["All", "E-commerce", "Corporate", "Agency & Media"] as const;
+export const projectCategories = [
+  "All",
+  "Headless & Next.js",
+  "E-commerce",
+  "Corporate",
+  "Agency & Media",
+] as const;
 
 export const experience = [
   {
