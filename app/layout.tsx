@@ -43,6 +43,22 @@ export const metadata: Metadata = {
     url: "https://www.alamgirhossen.online",
     siteName: "Md Alamgir Hossen",
     type: "website",
+    locale: "en_US",
+    images: [
+      {
+        url: "/og.png",
+        width: 1200,
+        height: 630,
+        alt: "Md Alamgir Hossen — Senior WordPress & Next.js Developer",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Md Alamgir Hossen — Senior WordPress & Next.js Developer",
+    description:
+      "I convert slow WordPress sites into headless Next.js frontends. 9+ years, 100+ projects.",
+    images: ["/og.png"],
   },
 };
 
